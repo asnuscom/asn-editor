@@ -193,7 +193,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Original"
+                            android:text="@string/original"
                             android:textColor="@color/color_white_color"
                             android:textSize="17dp" />
                     </RelativeLayout>
@@ -227,7 +227,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Reversed"
+                            android:text="@string/reversed"
                             android:textColor="@color/color_white_color"
                             android:textSize="17dp" />
                     </RelativeLayout>
@@ -261,7 +261,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:text="Unknown"
+                        android:text="@string/unknown"
                         android:textColor="#ffffff"
                         android:textSize="15dp" />
                 </RelativeLayout>

@@ -153,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_centerInParent="true"
-                android:text="Enable Audio"
+                android:text="@string/enable_audio"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18dp" />
 
@@ -178,7 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Slow Speed Upto"
+                android:text="@string/slow_speed_upto"
                 android:textColor="@color/colorPrimary"
                 android:textSize="15dp" />
         </RelativeLayout>

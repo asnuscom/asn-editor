@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:alpha="0.5"
             android:singleLine="true"
-            android:text="duration"
+            android:text="@string/duration"
             android:textColor="@android:color/black"
             android:textSize="12dp" />
     </LinearLayout>

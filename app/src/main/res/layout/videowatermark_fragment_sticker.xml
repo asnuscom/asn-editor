@@ -8,10 +8,10 @@
         <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="90dp" android:layout_margin="10dp">
             <com.asnus.videoeditor.MetaFont
                 android:textSize="18dp" android:textStyle="bold" android:textColor="@color/Header_Font_Color"
-                android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title" android:textAllCaps="true"/>
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title" android:textAllCaps="true"/>
             <com.asnus.videoeditor.MetaFont
                 android:textSize="12dp" android:textColor="@color/Header_Font_Color"
-                android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:text="description"/>
+                android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:text="@string/description"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

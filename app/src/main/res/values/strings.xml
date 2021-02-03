@@ -5,10 +5,7 @@
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>
     <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
-
-
     <string name="ad_attribution" translatable="false">Ad</string>
-
     <string name="AudioCompressor">AudioCompressor</string>
     <string name="AudioCutter">AudioCutter</string>
     <string name="AudioJoiner">AudioJoiner</string>
@@ -66,7 +63,6 @@
     <string name="stop">Stop</string>
     <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
     <string name="write_error">Error writing file</string>
-
     <string name="go_back_title">Want to go back?</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
@@ -74,17 +70,14 @@
     <string name="close">Close</string>
     <string name="select_music">Select Music</string>
     <string name="add_music">Add Music</string>
-    <string name="duration_0">Duration : 0</string>
     <string name="end">End :</string>
     <string name="start">Start :</string>
-    <string name="audio_name">Audio Name</string>
     <string name="size">size</string>
     <string name="duration">Duration</string>
     <string name="add_audio_mixer">Add Audio Mixer</string>
     <string name="hello">hello</string>
     <string name="enter_degree_between_1_to_360">Enter Degree Between 1 to 360</string>
     <string name="save">SAVE</string>
-    <string name="enable_audio">Enable Audio</string>
     <string name="fast_speed_upto">Fast Speed Upto</string>
     <string name="install">Install</string>
     <string name="description">Description</string>
@@ -119,5 +112,38 @@
     <string name="audio_cutter">Audio Cutter</string>
     <string name="video_watermark">Video Watermark</string>
     <string name="video_mirror">Video Mirror</string>
+    <string name="effect">effect</string>
+    <string name="go">Go</string>
+    <string name="original">ORIGINAL</string>
+    <string name="fit">FIT</string>
+    <string name="title">title</string>
+    <string name="enable_audio">Enable Audio</string>
+    <string name="slow_speed_upto">Slow Speed Upto</string>
+    <string name="file_name">file name</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_video">Select Video</string>
+    <string name="audio_name">Audio Name</string>
+    <string name="remove">Remove</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="select_file_formate">Select file formate :</string>
+    <string name="right_mirror">Right Mirror</string>
+    <string name="left_mirror">Left Mirror</string>
+    <string name="top_mirror">Top Mirror</string>
+    <string name="bottum_mirror">Bottum Mirror</string>
+    <string name="reversed">Reversed</string>
+    <string name="_180_degree">180 Degree</string>
+    <string name="_90_degree">90 Degree</string>
+    <string name="_270_degree">270 Degree</string>
+    <string name="custom">Custom</string>
+    <string name="textview">TextView</string>
+    <string name="split_video_into_parts">Split video into parts :</string>
+    <string name="unknown">Unknown</string>
+    <string name="duration_0">Duration : 0</string>
+    <string name="music_format">Music Format</string>
+    <string name="bit_rates">Bit Rates</string>
+    <string name="none">None</string>
+    <string name="blend_me">Blend Me</string>
 
 </resources>

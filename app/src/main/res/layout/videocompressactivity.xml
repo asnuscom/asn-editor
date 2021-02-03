@@ -194,7 +194,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="High"
+                            android:text="@string/high"
                             android:textColor="@color/color_white_color" />
                     </RelativeLayout>
                 </RelativeLayout>
@@ -227,7 +227,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Medium"
+                            android:text="@string/medium"
                             android:textColor="@color/color_white_color" />
                     </RelativeLayout>
                 </RelativeLayout>
@@ -260,7 +260,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Low"
+                            android:text="@string/low"
                             android:textColor="@color/color_white_color" />
                     </RelativeLayout>
                 </RelativeLayout>
@@ -293,7 +293,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:text="Unknown"
+                        android:text="@string/unknown"
                         android:textColor="#ffffff"
                         android:textSize="15dp" />
                 </RelativeLayout>

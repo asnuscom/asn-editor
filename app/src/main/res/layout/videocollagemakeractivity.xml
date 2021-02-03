@@ -77,7 +77,7 @@
                             android:lines="1"
                             android:paddingLeft="5dp"
                             android:singleLine="true"
-                            android:text="Audio Namedgssssgsgsdgsgdgsdgsgdgsdg"
+                            android:text="@string/audio_name"
                             android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/collage_audio_txtsize" />
                     </RelativeLayout>
@@ -101,7 +101,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Remove"
+                                android:text="@string/remove"
                                 android:textColor="@color/color_white_color" />
                         </RelativeLayout>
                     </RelativeLayout>

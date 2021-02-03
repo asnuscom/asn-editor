@@ -3,5 +3,5 @@
     <FrameLayout android:background="@drawable/filter_border" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:layout_gravity="center" android:id="@+id/ivThumb" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitXY"/>
     </FrameLayout>
-    <TextView android:textSize="10dp" android:textColor="@android:color/white" android:id="@+id/tvEffectName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="effect"/>
+    <TextView android:textSize="10dp" android:textColor="@android:color/white" android:id="@+id/tvEffectName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/effect"/>
 </LinearLayout>

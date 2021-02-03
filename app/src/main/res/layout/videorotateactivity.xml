@@ -187,7 +187,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="180 Degree"
+                                android:text="@string/_180_degree"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -221,7 +221,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="90 Degree"
+                                android:text="@string/_90_degree"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -263,7 +263,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="270 Degree"
+                                android:text="@string/_270_degree"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -297,7 +297,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Custom"
+                                android:text="@string/custom"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>

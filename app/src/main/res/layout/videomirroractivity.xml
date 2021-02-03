@@ -202,7 +202,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Right Mirror"
+                                android:text="@string/right_mirror"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -236,7 +236,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Left Mirror"
+                                android:text="@string/left_mirror"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -279,7 +279,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Top Mirror"
+                                android:text="@string/top_mirror"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -313,7 +313,7 @@
                                 android:layout_centerInParent="true"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Bottum Mirror"
+                                android:text="@string/bottum_mirror"
                                 android:textColor="@color/color_white_color"
                                 android:textSize="17dp" />
                         </RelativeLayout>

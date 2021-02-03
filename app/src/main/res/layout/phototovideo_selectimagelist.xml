@@ -84,7 +84,7 @@
                 android:gravity="center"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
-                android:text="ORIGINAL"
+                android:text="@string/original"
                 android:textColor="#000000"
                 android:textSize="17dp" />
         </LinearLayout>
@@ -105,7 +105,7 @@
                 android:gravity="center"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
-                android:text="FIT"
+                android:text="@string/fit"
                 android:textColor="#ffffffff"
                 android:textSize="17dp" />
         </LinearLayout>

@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:text="Duration : 0"
+                    android:text="@string/duration_0"
                     android:textAppearance="?android:attr/textAppearance"
                     android:textColor="#ffffff"
                     android:textSize="20dp"

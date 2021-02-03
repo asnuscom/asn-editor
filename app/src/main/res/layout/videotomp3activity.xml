@@ -179,7 +179,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Music Format"
+                            android:text="@string/music_format"
                             android:textColor="@color/color_white_color"
                             android:textSize="17dp" />
                     </RelativeLayout>
@@ -213,7 +213,7 @@
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Bit Rates"
+                            android:text="@string/bit_rates"
                             android:textColor="@color/color_white_color"
                             android:textSize="17dp" />
                     </RelativeLayout>
@@ -348,7 +348,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
                                 android:paddingBottom="10dp"
-                                android:text=" None "
+                                android:text="@string/none"
                                 android:textColor="@color/white"
                                 android:textSize="11sp" />
 

@@ -180,7 +180,7 @@
                         android:layout_marginLeft="5dp"
                         android:clickable="false"
                         android:gravity="center"
-                        android:text="Split video into parts :"
+                        android:text="@string/split_video_into_parts"
                         android:textColor="@color/colorPrimary"
                         android:textSize="17dp" />
                 </RelativeLayout>
@@ -228,7 +228,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:text="Unknown"
+                        android:text="@string/unknown"
                         android:textColor="#ffffff"
                         android:textSize="15dp" />
                 </RelativeLayout>
