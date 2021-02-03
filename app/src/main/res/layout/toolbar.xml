@@ -10,7 +10,7 @@
     app:popupTheme="?attr/actionBarPopupTheme"
     app:theme="?attr/actionBarTheme">
 
-    <com.androworld.allinonevideoeditor.MetaFont
+    <com.asnus.videoeditor.MetaFont
         android:id="@+id/toolbar_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

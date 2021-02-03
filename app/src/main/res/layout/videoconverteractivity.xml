@@ -25,7 +25,7 @@
             android:layout_marginRight="5dp"
             android:background="#ffffff">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/Filename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginBottom="15dp">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/left_pointer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="15dp" />
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/right_pointer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.7">
 
-                    <com.androworld.allinonevideoeditor.MetaFont
+                    <com.asnus.videoeditor.MetaFont
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"

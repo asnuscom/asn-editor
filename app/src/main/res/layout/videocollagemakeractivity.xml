@@ -69,7 +69,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.4">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:id="@+id/tvAudioName"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                             android:background="@drawable/button_shape"
                             android:clickable="true">
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="70dp"
                                 android:layout_height="35dp"
                                 android:layout_centerInParent="true"
@@ -171,7 +171,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.3">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:id="@+id/tvStartAudio"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
                             android:textSize="15dp"
                             android:textStyle="bold" />
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:id="@+id/tvEndAudio"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

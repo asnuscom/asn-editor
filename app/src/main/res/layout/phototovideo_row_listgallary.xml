@@ -7,7 +7,7 @@
         <LinearLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="1">
             <RelativeLayout
                 android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ivThumb" android:layout_centerVertical="true">
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:textSize="15dp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/tvAlbumTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true"/>
             </RelativeLayout>
         </LinearLayout>

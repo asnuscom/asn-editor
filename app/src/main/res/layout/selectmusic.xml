@@ -28,13 +28,13 @@
                 android:src="@drawable/ic_back"
                 android:tint="#ffffff" />
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:singleLine="true"
-                android:text="Select Music"
+                android:text="@string/select_music"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
         </RelativeLayout>

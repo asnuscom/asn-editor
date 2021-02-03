@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Text Color"
@@ -47,13 +47,13 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Text Opacity : "
                     android:textColor="@color/Header_Font_Color" />
 
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:id="@+id/txtOpacity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
@@ -124,13 +124,13 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Background Opacity : "
                     android:textColor="@color/Header_Font_Color" />
 
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:id="@+id/bgOpacity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

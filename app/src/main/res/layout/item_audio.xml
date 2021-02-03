@@ -24,7 +24,7 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/icon"
         android:ellipsize="marquee"
-        android:text="Description"
+        android:text="@string/description"
         android:textSize="12sp"
         android:singleLine="true" />
 
@@ -38,7 +38,7 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_toRightOf="@id/icon"
         android:gravity="center_vertical"
-        android:text="Example application"
+        android:text="@string/example_application"
         android:textSize="16sp" />
 
 </RelativeLayout>

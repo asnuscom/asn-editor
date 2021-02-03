@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Text Shadow"

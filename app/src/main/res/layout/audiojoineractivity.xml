@@ -24,7 +24,7 @@
             android:layout_marginBottom="5dp"
             android:background="#ffffff">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/songname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,14 +49,14 @@
                 android:layout_weight="2"
                 android:background="#ff000000">
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.WaveformView
+                <com.asnus.videoeditor.audiocutter.cutter.WaveformView
                     android:id="@+id/waveform"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:background="@color/black" />
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.MarkerView
+                <com.asnus.videoeditor.audiocutter.cutter.MarkerView
                     android:id="@+id/startmarker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                     android:paddingLeft="15dp"
                     android:src="@drawable/cutter_left" />
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.MarkerView
+                <com.asnus.videoeditor.audiocutter.cutter.MarkerView
                     android:id="@+id/endmarker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="0.7">
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentLeft="true"
@@ -190,7 +190,7 @@
                                 android:layout_marginLeft="5dp"
                                 android:clickable="false"
                                 android:gravity="center"
-                                android:text="Select audio type :-"
+                                android:text="@string/select_audio_type"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="17dp" />
                         </RelativeLayout>
@@ -229,13 +229,13 @@
                         android:background="@drawable/button_shape"
                         android:clickable="true">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:layout_width="250dp"
                             android:layout_height="40dp"
                             android:layout_centerInParent="true"
                             android:clickable="false"
                             android:gravity="center"
-                            android:text="Add Music"
+                            android:text="@string/add_music"
                             android:textColor="@color/color_white_color"
                             android:textSize="25dp" />
                     </RelativeLayout>

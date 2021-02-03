@@ -26,7 +26,7 @@
             android:layout_marginRight="5dp"
             android:background="#ffffff">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/Filename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     android:layout_weight="0.3"
                     android:gravity="center">
 
-                    <com.androworld.allinonevideoeditor.VideoSliceSeekBar
+                    <com.asnus.videoeditor.VideoSliceSeekBar
                         android:id="@+id/seek_bar"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -114,7 +114,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/left_pointer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="15dp" />
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/right_pointer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                         android:background="@drawable/button_shape"
                         android:clickable="true">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:layout_width="150dp"
                             android:layout_height="50dp"
                             android:layout_centerInParent="true"
@@ -207,7 +207,7 @@
                         android:background="@drawable/button_shape"
                         android:clickable="true">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:layout_width="150dp"
                             android:layout_height="50dp"
                             android:layout_centerInParent="true"
@@ -242,7 +242,7 @@
                     android:orientation="vertical"
                     android:visibility="gone">
 
-                    <com.androworld.allinonevideoeditor.videotomp3.HorizontalListView
+                    <com.asnus.videoeditor.videotomp3.HorizontalListView
                         android:id="@+id/hs_Bitrate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -263,7 +263,7 @@
                         android:gravity="center"
                         android:orientation="horizontal">
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:id="@+id/iv_mp3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
                             android:textColor="@color/white"
                             android:textSize="10dp" />
 
-                        <com.androworld.allinonevideoeditor.MetaFont
+                        <com.asnus.videoeditor.MetaFont
                             android:id="@+id/iv_aac"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

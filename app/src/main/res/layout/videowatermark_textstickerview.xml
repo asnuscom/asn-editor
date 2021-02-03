@@ -84,7 +84,7 @@
                 </LinearLayout>
             </RelativeLayout>
 
-            <com.androworld.allinonevideoeditor.videowatermark.CustomViewPager
+            <com.asnus.videoeditor.videowatermark.CustomViewPager
                 android:id="@+id/viewPagerTextSticker"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"

@@ -6,9 +6,9 @@
                 <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/cancel_btn" android:tint="#ffffff"/>
             </LinearLayout>
             <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.4">
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:textSize="16dp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/stickerCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
-                <com.androworld.allinonevideoeditor.MetaFont
+                <com.asnus.videoeditor.MetaFont
                     android:textSize="16dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / 10"/>
             </LinearLayout>
             <LinearLayout android:gravity="center" android:id="@+id/stickerCheck" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.3">

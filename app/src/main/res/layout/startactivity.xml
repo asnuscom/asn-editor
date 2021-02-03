@@ -102,12 +102,12 @@
                                 android:src="@mipmap/videocutter"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Cutter"
+                                android:text="@string/video_cutter"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -142,12 +142,12 @@
                                 android:src="@mipmap/videocompressor"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Compress"
+                                android:text="@string/video_compress"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -182,12 +182,12 @@
                                 android:src="@mipmap/videotomp3"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video To MP3"
+                                android:text="@string/video_to_mp3"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -226,12 +226,12 @@
                                 android:src="@mipmap/audiovideomixer"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Mixer"
+                                android:text="@string/video_mixer"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -266,12 +266,12 @@
                                 android:src="@mipmap/videomute"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Mute"
+                                android:text="@string/video_mute"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -306,12 +306,12 @@
                                 android:src="@mipmap/videojoiner"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Joiner"
+                                android:text="@string/video_joiner"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -359,12 +359,12 @@
                                 android:src="@mipmap/videotoimage"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video To Image"
+                                android:text="@string/video_to_image"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -399,12 +399,12 @@
                                 android:src="@mipmap/videoconverter"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Converter"
+                                android:text="@string/video_converter"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -438,12 +438,12 @@
                                 android:src="@mipmap/fastmotionvideo"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Fast Motion"
+                                android:text="@string/fast_motion"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -483,12 +483,12 @@
                                 android:src="@mipmap/slowmotionvideo"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Slow Motion"
+                                android:text="@string/slow_motion"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -523,12 +523,12 @@
                                 android:src="@mipmap/videocropper"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Croper"
+                                android:text="@string/video_croper"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -563,12 +563,12 @@
                                 android:src="@mipmap/videotogif"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video To GIF"
+                                android:text="@string/video_to_gif"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -609,12 +609,12 @@
                                 android:src="@mipmap/videorotate"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Rotate"
+                                android:text="@string/video_rotate"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -649,12 +649,12 @@
                                 android:src="@mipmap/videomirror"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Mirror"
+                                android:text="@string/video_mirror"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -688,12 +688,12 @@
                                 android:src="@mipmap/videosplitter"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Splitter"
+                                android:text="@string/video_splitter"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -734,12 +734,12 @@
                                 android:src="@mipmap/videoresvers"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Revserse"
+                                android:text="@string/video_revserse"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -774,12 +774,12 @@
                                 android:src="@mipmap/slideshowmaker"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Photo To Video"
+                                android:text="@string/photo_to_video"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -811,12 +811,12 @@
                                 android:src="@mipmap/videocollage"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Collage"
+                                android:text="@string/video_collage"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -851,12 +851,12 @@
                                 android:src="@mipmap/audiocompressor"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Audio Compress"
+                                android:text="@string/audio_compress"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -898,12 +898,12 @@
                                 android:src="@mipmap/audiojoiner"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Audio Joiner"
+                                android:text="@string/audio_joiner"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -938,12 +938,12 @@
                                 android:src="@mipmap/mp3cutter"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Audio Cutter"
+                                android:text="@string/audio_cutter"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>
@@ -986,12 +986,12 @@
                                 android:src="@mipmap/videowatermaker"
                                 app:tint="@color/image_text" />
 
-                            <com.androworld.allinonevideoeditor.MetaFont
+                            <com.asnus.videoeditor.MetaFont
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:lines="2"
-                                android:text="Video Watermark"
+                                android:text="@string/video_watermark"
                                 android:textColor="@color/image_text"
                                 android:textSize="13sp" />
                         </LinearLayout>

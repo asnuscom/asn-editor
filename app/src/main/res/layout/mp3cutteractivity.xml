@@ -24,7 +24,7 @@
             android:layout_marginBottom="5dp"
             android:background="#ffffff">
 
-            <com.androworld.allinonevideoeditor.MetaFont
+            <com.asnus.videoeditor.MetaFont
                 android:id="@+id/songname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,14 +49,14 @@
                 android:layout_weight="3"
                 android:background="#ff000000">
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.WaveformView
+                <com.asnus.videoeditor.audiocutter.cutter.WaveformView
                     android:id="@+id/waveform"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:background="@color/black" />
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.MarkerView
+                <com.asnus.videoeditor.audiocutter.cutter.MarkerView
                     android:id="@+id/startmarker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                     android:paddingLeft="15dp"
                     android:src="@drawable/cutter_left" />
 
-                <com.androworld.allinonevideoeditor.audiocutter.cutter.MarkerView
+                <com.asnus.videoeditor.audiocutter.cutter.MarkerView
                     android:id="@+id/endmarker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -93,13 +93,13 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <com.androworld.allinonevideoeditor.MetaFont
+                    <com.asnus.videoeditor.MetaFont
                         android:layout_width="wrap_content"
                         android:layout_height="31dp"
                         android:clickable="true"
                         android:gravity="center"
                         android:labelFor="@+id/starttext"
-                        android:text="Start :"
+                        android:text="@string/start"
                         android:textColor="@color/colorPrimary"
                         android:textSize="14sp" />
 
@@ -116,14 +116,14 @@
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
-                    <com.androworld.allinonevideoeditor.MetaFont
+                    <com.asnus.videoeditor.MetaFont
                         android:layout_width="wrap_content"
                         android:layout_height="31dp"
                         android:layout_marginLeft="20dp"
                         android:clickable="true"
                         android:gravity="center"
                         android:labelFor="@+id/endtext"
-                        android:text="End :"
+                        android:text="@string/end"
                         android:textColor="@color/colorPrimary"
                         android:textSize="14sp" />
 

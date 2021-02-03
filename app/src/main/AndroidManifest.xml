@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.androworld.allinonevideoeditor">
+    package="com.asnus.videoeditor">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -27,7 +27,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name="com.androworld.allinonevideoeditor.VideoApplication"
+        android:name="com.asnus.videoeditor.VideoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -37,7 +37,7 @@
         android:extractNativeLibs="true"
         android:requestLegacyExternalStorage="true"
         >
-        <activity android:name="com.androworld.allinonevideoeditor.SplashActivity"
+        <activity android:name="com.asnus.videoeditor.SplashActivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
             >
@@ -47,13 +47,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.androworld.allinonevideoeditor.Mainactivity"
+        <activity android:name="com.asnus.videoeditor.Mainactivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
 
             ></activity>
         <activity
-            android:name="com.androworld.allinonevideoeditor.StartActivity"
+            android:name="com.asnus.videoeditor.StartActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
@@ -62,7 +62,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.androworld.allinonevideoeditor.provider"
+            android:authorities="com.asnus.videoeditor.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -71,185 +71,185 @@
         </provider>
 
         <activity
-            android:name="com.androworld.allinonevideoeditor.listvideoandmyvideo.ListVideoAndMyAlbumActivity"
+            android:name="com.asnus.videoeditor.listvideoandmyvideo.ListVideoAndMyAlbumActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.listvideowithmymusic.ListVideoAndMyMusicActivity"
+            android:name="com.asnus.videoeditor.listvideowithmymusic.ListVideoAndMyMusicActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videotogif.ListVideoAndMyAlbumActivity"
+            android:name="com.asnus.videoeditor.videotogif.ListVideoAndMyAlbumActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videojoiner.ListVideoAndMyAlbumActivity"
+            android:name="com.asnus.videoeditor.videojoiner.ListVideoAndMyAlbumActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.ListCollageAndMyAlbumActivity"
+            android:name="com.asnus.videoeditor.videocollage.ListCollageAndMyAlbumActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.listmusicandmymusic.ListMusicAndMyMusicActivity"
+            android:name="com.asnus.videoeditor.listmusicandmymusic.ListMusicAndMyMusicActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.phototovideo.SelectImageAndMyVideoActivity"
+            android:name="com.asnus.videoeditor.phototovideo.SelectImageAndMyVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocutter.VideoCutter"
+            android:name="com.asnus.videoeditor.videocutter.VideoCutter"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocompress.VideoCompressor"
+            android:name="com.asnus.videoeditor.videocompress.VideoCompressor"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videotomp3.VideoToMP3ConverterActivity"
+            android:name="com.asnus.videoeditor.videotomp3.VideoToMP3ConverterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.AudioPlayer"
+            android:name="com.asnus.videoeditor.AudioPlayer"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.audiovideomixer.AudioVideoMixer"
+            android:name="com.asnus.videoeditor.audiovideomixer.AudioVideoMixer"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.SelectMusicActivity"
+            android:name="com.asnus.videoeditor.SelectMusicActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.VideoPlayer"
+            android:name="com.asnus.videoeditor.VideoPlayer"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videomute.VideoMuteActivity"
+            android:name="com.asnus.videoeditor.videomute.VideoMuteActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.phototovideo.tablayout.HomeTab"
+            android:name="com.asnus.videoeditor.phototovideo.tablayout.HomeTab"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.phototovideo.DisplayAlbumActivity"
+            android:name="com.asnus.videoeditor.phototovideo.DisplayAlbumActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.phototovideo.SelectionListActivity"
+            android:name="com.asnus.videoeditor.phototovideo.SelectionListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.phototovideo.MoiveMakerActivity"
+            android:name="com.asnus.videoeditor.phototovideo.MoiveMakerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocrop.VideoCropActivity"
+            android:name="com.asnus.videoeditor.videocrop.VideoCropActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.fastmotionvideo.FastMotionVideoActivity"
+            android:name="com.asnus.videoeditor.fastmotionvideo.FastMotionVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.slowmotionvideo.SlowMotionVideoActivity"
+            android:name="com.asnus.videoeditor.slowmotionvideo.SlowMotionVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videoreverse.VideoReverseActivity"
+            android:name="com.asnus.videoeditor.videoreverse.VideoReverseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.SelectFrameActivity"
+            android:name="com.asnus.videoeditor.videocollage.SelectFrameActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.VideoCollageMakerActivity"
+            android:name="com.asnus.videoeditor.videocollage.VideoCollageMakerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.VideoCropAndCutActivity"
+            android:name="com.asnus.videoeditor.videocollage.VideoCropAndCutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.SelectStickerActivity"
+            android:name="com.asnus.videoeditor.videocollage.SelectStickerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videosplitter.VideoSplitterActivity"
+            android:name="com.asnus.videoeditor.videosplitter.VideoSplitterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videorotate.VideoRotateActivity"
+            android:name="com.asnus.videoeditor.videorotate.VideoRotateActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videoconverter.VideoConverteractivity"
+            android:name="com.asnus.videoeditor.videoconverter.VideoConverteractivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videojoiner.GallaryListActivity"
+            android:name="com.asnus.videoeditor.videojoiner.GallaryListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videojoiner.GallaryPhotosActivity"
+            android:name="com.asnus.videoeditor.videojoiner.GallaryPhotosActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videojoiner.VideoJoinerActivity"
+            android:name="com.asnus.videoeditor.videojoiner.VideoJoinerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videojoiner.AddAudioActivity"
+            android:name="com.asnus.videoeditor.videojoiner.AddAudioActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videotogif.VideoToGIFActivity"
+            android:name="com.asnus.videoeditor.videotogif.VideoToGIFActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.GIFPreviewActivity"
+            android:name="com.asnus.videoeditor.GIFPreviewActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videomirror.VideoMirrorActivity"
+            android:name="com.asnus.videoeditor.videomirror.VideoMirrorActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.audiocompress.AudioCompressorActivity"
+            android:name="com.asnus.videoeditor.audiocompress.AudioCompressorActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.audioJoin.AudioJoinerActivity"
+            android:name="com.asnus.videoeditor.audioJoin.AudioJoinerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.audiocutter.MP3CutterActivity"
+            android:name="com.asnus.videoeditor.audiocutter.MP3CutterActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videowatermark.VideoWatermarkActivity"
+            android:name="com.asnus.videoeditor.videowatermark.VideoWatermarkActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videotoimg.VideoToImageActivity"
+            android:name="com.asnus.videoeditor.videotoimg.VideoToImageActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.androworld.allinonevideoeditor.videocollage.SelectMusicActivity"
+            android:name="com.asnus.videoeditor.videocollage.SelectMusicActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
