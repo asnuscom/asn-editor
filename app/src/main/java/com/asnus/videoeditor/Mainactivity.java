@@ -77,7 +77,7 @@ public class Mainactivity extends AppCompatActivity implements View.OnClickListe
             case R.id.iv_privecy:
 
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://androworld202.blogspot.com/"));
+                i.setData(Uri.parse("https://asnus.com/asnus-data-protection-and-privacy-policy/"));
                 startActivity(i);
                 break;
 
