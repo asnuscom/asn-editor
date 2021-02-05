@@ -2,10 +2,10 @@
 <resources>
     <string name="app_name">ASN Editör</string>
 
-    <string name="appid">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>
-    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="appid">ca-app-pub-1373717518987632~9516457825</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1373717518987632/6273548515</string>
+    <string name="nativeid">ca-app-pub-1373717518987632/6273548515</string>
+    <string name="interstitial_full_screen">ca-app-pub-1373717518987632/1519931190</string>
 
 
     <string name="ad_attribution" translatable="false">Reklam</string>
@@ -70,7 +70,7 @@
     <string name="go_back_title">Geri dönmek ister misin?</string>
     <string name="no">Hayır</string>
     <string name="yes">Evet</string>
-    <string name="sure_close_app">Uygulamayı kapatmak mı istiyorsunuz?</string>
+    <string name="sure_close_app">Uygulamayı kapatmak mı istiyorsun?</string>
     <string name="close">Kapat</string>
     <string name="select_music">Müzik Seç</string>
     <string name="add_music">Müzik Ekle</string>
@@ -119,7 +119,7 @@
     <string name="audio_cutter">Ses Kırpma</string>
     <string name="video_watermark">Video Filigran</string>
     <string name="video_mirror">Ayna Video</string>
-    <string name="effect">efekt</string>
+    <string name="effect">Efekt</string>
     <string name="go">Git</string>
     <string name="original">Orjinal</string>
     <string name="fit">Sığdır</string>

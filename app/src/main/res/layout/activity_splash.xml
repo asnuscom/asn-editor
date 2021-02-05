@@ -11,13 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/splash"
-        />
+        android:src="@drawable/splash" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_centerVertical="true"
+        android:layout_height="250dp"
+        android:layout_marginTop="290dp"
         android:scaleType="centerInside"
         android:src="@drawable/logo_name" />
 

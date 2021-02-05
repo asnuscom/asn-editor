@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#ff2871</color>
-    <color name="colorPrimaryDark">#ff2871</color>
-    <color name="colorAccent">#ff2871</color>
+    <color name="colorPrimary">#054398</color>
+    <color name="colorPrimaryDark">#054398</color>
+    <color name="colorAccent">#054398</color>
+
     <color name="Button_Normal_Color">#ff252525</color>
     <color name="Button_Selected_Color">#ff0089ff</color>
     <color name="Footer_Color">#ffffffff</color>
@@ -27,7 +28,7 @@
     <color name="playback_indicator">#ffff66</color>
     <color name="timecode">#000000</color>
     <color name="timecode_shadow">#aa000000</color>
-    <color name="image">#ff2871</color>
+    <color name="image">#054398</color>
     <color name="image_text">#000000</color>
     <color name="backgraunds">#ffffff</color>
 
