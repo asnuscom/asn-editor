@@ -4,7 +4,6 @@
     <color name="colorPrimary">#ff2871</color>
     <color name="colorPrimaryDark">#ff2871</color>
     <color name="colorAccent">#ff2871</color>
-
     <color name="Button_Normal_Color">#ff252525</color>
     <color name="Button_Selected_Color">#ff0089ff</color>
     <color name="Footer_Color">#ffffffff</color>
